@@ -21,6 +21,8 @@ try:
 				os.system('cp kill.py /sdcard/111...Maiis/main/')
 				os.system('cp alarm.mp3 /sdcard/111...Maiis/main/')
 				os.system('cp pac.py /sdcard/111...Maiis/main/')
+				os.chdir('/data/data/com.termux/files/home/maiis-installer/') # non
+				os.system('xdg-open termux-api.apk')
 				os.chdir('/data/data/com.termux/files/home')
 				os.system('rm -rf maiis-installer')
 				print('ok its don now restart your terminal')
@@ -63,7 +65,7 @@ try:
 			print('you need to install the termux api pleas wait while installing termux-api ........ ')
 			time.sleep(5)
 			os.chdir('/data/data/com.termux/files/home/maiis-installer/') # non
-			os.system('termux-share termux-api.apk')
+			os.system('xdg-open termux-api.apk')
 			os.system('apt install termux-api')
 			print("Worning be cairefull donot try to rename any file")
 			print("or donot try to edit maiis")
