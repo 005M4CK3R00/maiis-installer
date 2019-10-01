@@ -6,7 +6,7 @@ This is the simple and easiest script to install maiis in your system just give 
 
 
 
-BE CAITEFUll this tool in work only in termux this is only desinde for termux
+BE CAIREFUll this tool in work only in termux this is only desinde for termux
 
 #### use these commands to start.....
 
