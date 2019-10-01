@@ -2,7 +2,7 @@
 This is the simple and easiest script to install maiis in your system just give it exicutable permition and run it with python
 
 
-# -------------------WORNING------------------------
+# -----------------------WORNING----------------------
 
 
 
@@ -35,7 +35,7 @@ need to go to your internal storage and then there you will see the folder name 
 and go to this folder and then put your songs there by the name of the folder and be carefull
 do not try to rename any folder and also do not try to delet any file inside the maiis folder
 
-  ### ~~~~вє ¢αιяєfυℓℓ тнιѕ ιѕ ѕтιℓℓ ιи α ∂єνєℓσρмєит тнιѕ ιѕ иσт яєℓ~~~~
+  ### ~~~~~~~~~~вє ¢αιяєfυℓℓ тнιѕ ιѕ ѕтιℓℓ ιи α ∂єνєℓσρмєит тнιѕ ιѕ иσт яєℓ~~~~~~~~
 
 
 
