@@ -8,7 +8,7 @@ This is the simple and easiest script to install maiis in your system just give 
 
 BE CAITEFUll this tool in work only in termux this is only desinde for termux
 
-use these commands to start.....
+#### use these commands to start.....
 
 1. ` apt update`
 2. ` apt upgrade`
@@ -21,8 +21,8 @@ use these commands to start.....
 
 
 
-and then chuse what you want to do and after installing this you need to restart your terminal
-and after restarting terminal you will see a folder name maiis and then type these commands
+#### and then chuse what you want to do and after installing this you need to restart your terminal
+#### and after restarting terminal you will see a folder name maiis and then type these commands
 
 
 1. ` cd maiis`
