@@ -14,7 +14,7 @@ BE CAITEFUll this tool in work only in termux this is only desinde for termux
 2. ` apt upgrade`
 3. ` apt install python`
 4. ` apt install git`
-5. ` git clone `
+5. ` git clone https://github.com/005M4CK3R00/maiis-installer`
 6. ` cd maiis-installer`
 7. ` chmod +x maiis_installer.py`
 8. ` python maiis_installer.py`
