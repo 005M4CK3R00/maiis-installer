@@ -253,7 +253,7 @@ try:
 				os.chdir('/data/data/com.termux/files/usr/bin/')
 				os.system('chmod +x *')
 				os.chdir('/data/data/com.termux/files/home/')
-				insrt = input("do you want to start maiis y/n ")
+				insrt = input(yellow+"do you want to start maiis y/n "+end)
 				if insrt=="y" or insrt=="Y" :
 					print(green+"ok pleas wait ..... "+end)
 					print(read+"in first time maiis can take more time to start"+end)
