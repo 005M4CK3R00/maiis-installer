@@ -106,6 +106,7 @@ try:
 			os.system('apt install figlet -y')
 			os.system('apt install mpv -y')
 			os.system('apt install nano -y')
+			os.system('apt install cowsay -y')
 			os.system('apt install fortune -y')
 			os.system('apt install toilet -y')
 			os.system('apt install git -y')
