@@ -207,9 +207,9 @@ try:
 					wxz.writelines('0')
 				wxz.close()
 				animate()
-				user_nmr = input(blue+'Please chuse the username for maiis : ')
-				print('pleas do not include @ and = in password and username')
-				pass_wr = input('pleas chuse the password : '+end)
+				user_nmr = input(blue+'Please chuse the username for maiis : '+end)
+				print(read+'pleas do not include @ and = in password and username'+end)
+				pass_wr = input(green+'pleas chuse the password : '+end)
 				# setting uer name and password from here
 				with open('usp.txt' , 'w') as opw:
 					opw.writelines('username = '+user_nmr+'\n')
@@ -221,7 +221,7 @@ try:
 				set_rps = str(set_rp)
 				with open('pc.txt' , 'w') as srp:
 					srp.writelines(set_rp)
-					print('Done password set ')
+					print(green+'Done password set '+end)
 					time.sleep(1)
 				srp.close()
 				with open('weather.txt' , 'w') as wetw:
