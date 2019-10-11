@@ -155,9 +155,9 @@ try:
 					print(yellow+'you need to install it manully...'+end)
 					while True:
 						print('\033[31mpleas go to your internal storage and then you will the termux-api apk install it and then type enter\33[0m')
-						input('if you have install it  then press enter ')
+						input(yellow+'if you have install it  then press enter '+end)
 						if not os.path.exists('/data/app/com.termux.api-1/base.apk'):
-							print('install it.......')
+							print(read+'install it.......'+end)
 							time.sleep(2)
 							os.system('clear')
 						else:
