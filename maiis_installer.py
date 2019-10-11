@@ -45,12 +45,12 @@ try:
 	voilet = '\33[35m'
 	end = '\33[0m'
 	def main():
-		ver = input("are you surue want to install maiis in your system y/n :")
+		ver = input(green+"are you surue want to install maiis in your system y/n :"+end)
 		if ver == "y" or ver == "Y":
-			back_restore = input("do you want to backup maiis y/n : ")
+			back_restore = input(yellow+"do you want to backup maiis y/n : "+end)
 			if back_restore == "y" or back_restore == "Y" :
 				print("ok pleas enter a path of the maiis database ")
-				path_maiis_backup = input('input path : ')
+				path_maiis_backup = input(green+'input path : '+end)
 				animate()
 				os.chdir('/sdcard/111...Maiis/')
 				os.system('mkdir main')
@@ -63,9 +63,9 @@ try:
 				os.system('cp usp.txt /sdcard/111...Maiis/main/')
 				os.system('cp database.txt /sdcard/111...Maiis/main/')
 				os.system('cp find.txt /sdcard/111...Maiis/main/')
-				maiis_install_agan = input('do you want to install maiis y/n : ')
+				maiis_install_agan = input(green+'do you want to install maiis y/n : '+end)
 				if maiis_install_agan == 'n':
-					print('ok sir pleas wait removing maiis installer file ....')
+					print(read+'ok sir pleas wait coping database of maiis file ....'+end)
 					animate()
 					os.chdir('/data/data/com.termux/files/home/maiis-installer/')
 					
