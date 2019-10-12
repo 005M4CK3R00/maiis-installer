@@ -98,7 +98,7 @@ try:
 					if redif == "y" or redif == "Y" :
 						print("ok pleas wait....")
 						time.sleep(2)
-						print(bold+blue"its done maiis are working properly you will a maiis folder in your home directory where you can start maiis by typing python maiis1.py ......"+end)
+						print(bold+blue+"its done maiis are working properly you will a maiis folder in your home directory where you can start maiis by typing python maiis1.py ......"+end)
 						animate()
 						os.system('maiis')
 					else:
