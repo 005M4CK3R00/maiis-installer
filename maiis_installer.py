@@ -128,7 +128,7 @@ try:
 				os.system('apt install cowsay -y')
 				os.system('apt install toilet -y')
 				os.system('apt install git -y')
-				os.system('git clone https:/github.com/005M4CK3R00/maiis.git')
+				os.system('git clone https://github.com/005M4CK3R00/maiis')
 				os.chdir('/data/data/com.termux/files/home/maiis/')
 				os.system('cp maiis /data/data/com.termux/files/usr/bin/')
 				os.chdir('/data/data/com.termux/files/usr/bin')
